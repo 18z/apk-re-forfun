@@ -6,7 +6,7 @@ Apk 檔：[app-release.apk](app-release.apk)。
 
 參考[官方網站](https://developer.android.com/training/basics/firstapp/index.html)寫法，撰寫一簡易 Apk。Apk 執行後只會在空白頁中顯示 Happy Hacking。此外無其他功能，執行結果如下圖所示。
 
-![app_run](app_run.png)
+<img src="app_run.png" width="400">
 
 在真正開始進入主題前，我們先了解每個 activity 執行後，會有哪些流程。
 

@@ -135,6 +135,12 @@ $ pdf
 0x0017c9ae      0e00           return-void
 ```
 
+開始解讀 opcode 之前，我們得先準備幾份參考資料。
+
+1. [dalvik opcodes](http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html)
+2. [smali - Types Methods and Fields](https://github.com/JesusFreke/smali/wiki/TypesMethodsAndFields)
+3. [smali - Registers](https://github.com/JesusFreke/smali/wiki/Registers)
+
 
 
 

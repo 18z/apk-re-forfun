@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
 
 ![code_proces](code_process.png)
 
-我們專注看的是 Smali Code。
+我們專注看的是 Opcodes(Dalvik Bytecode) + Smali Code。
 
 上圖建構所參考之文獻：
 * [What is smali code android](https://stackoverflow.com/questions/30837450/what-is-smali-code-android)

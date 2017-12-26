@@ -94,6 +94,8 @@ public class MainActivity extends AppCompatActivity {
 
 以上，針對此 apk 兩個重要檔案已講解完畢。以下，我們開始逆！
 
+![code_proces](code_process.png)
+
 文中，我們只用一個工具逆向，[radare2](http://rada.re/r/)。
 
 ```bash

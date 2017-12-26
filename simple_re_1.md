@@ -168,7 +168,7 @@ invoke-super {v1, v2}, Landroid/support/v7/app/AppCompatActivity.onCreate(Landro
 # AppCompatActivity is the name of the object
 
 # .onCreate(Landroid/os/Bundle;)V
-# 以下為自我推測
+# 以下為自我推測 "." = "->"
 # .onCreate()V 為 AppCompatActivity Object 中之 method
 # 回傳值 V 為 void - can only be used for return types
 # 傳 Bundle object 給 onCreate()

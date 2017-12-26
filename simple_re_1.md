@@ -96,6 +96,13 @@ public class MainActivity extends AppCompatActivity {
 
 ![code_proces](code_process.png)
 
+我們專注看的是 Smali Code。
+
+上圖建構所參考之文獻：
+* [What is smali code android](https://stackoverflow.com/questions/30837450/what-is-smali-code-android)
+* [Programming with Android - System Architecture](https://www.slideshare.net/uT916/android-architecture-and-additional-components)
+* [Smali](https://github.com/JesusFreke/smali)
+
 文中，我們只用一個工具逆向，[radare2](http://rada.re/r/)。
 
 ```bash

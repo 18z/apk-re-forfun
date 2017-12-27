@@ -203,4 +203,8 @@ invoke-virtual {v1, v0}, Lcom/example/test/re_simple/MainActivity.setContentView
 
 ```
 
-
+```
+return-void
+# 無回傳值
+# protected void onCreate(Bundle savedInstanceState)
+```

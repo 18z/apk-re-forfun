@@ -174,6 +174,14 @@ invoke-super {v1, v2}, Landroid/support/v7/app/AppCompatActivity.onCreate(Landro
 # 傳 Bundle object 給 onCreate()
 ```
 
+```
+const v0, 0x7f09001b
+# puts 0x7f09001b into v0
+# 猜測這裡將 R.layout.activity_main 放入 v0
+```
 
+```
+invoke-virtual {v1, v0}, Lcom/example/test/re_simple/MainActivity.setContentView(I)V ; aav.0x000041dd
+```
 
 

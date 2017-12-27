@@ -182,6 +182,25 @@ const v0, 0x7f09001b
 
 ```
 invoke-virtual {v1, v0}, Lcom/example/test/re_simple/MainActivity.setContentView(I)V ; aav.0x000041dd
+# setContentView(R.layout.activity_main);
+
+# ; aav.0x000041dd 尚未知。
+# invoke-virtual { parameters }, methodtocall
+# Invokes a virtual method with parameters.
+
+# v1 為 "this" instance，真正參數為 v0
+# 而 v0 已經在上一個 const 中被填入值了
+
+# Lcom/example/test/re_simple/MainActivity
+# L indicates that it is an object type
+# com/example/test/re_simple/ is the package that the object is in
+# MainActivity is the name of the object
+
+# .setContentView(I)V
+# setContentView()V 為 MainActivity 中之 method
+# 回傳值 V 為 void - can only be used for return types
+# I 表示 int，則可推測 R.layout.activity_main 型態為 int。
+
 ```
 
 

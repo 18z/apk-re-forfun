@@ -1,4 +1,4 @@
-### - 0107 - Apk 自寫自逆 - 解讀 Dalvik Bytecode
+### - 0107 - Apk 自寫自逆 - 解讀 Dalvik opcodes + smali codes
 
 
 開始解讀 opcodes + smali codes 之前，我們得先準備幾份參考資料。

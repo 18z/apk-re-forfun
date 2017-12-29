@@ -1,3 +1,6 @@
+### - 0106 - Apk 自寫自逆 - 定位 MainActivity 與 onCreate()
+
+
 文中，我們只用一個工具逆向，[radare2](http://rada.re/r/)。
 
 ```bash

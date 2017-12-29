@@ -1,3 +1,6 @@
+### - 0103 - Apk 自寫自逆 - 講解 MainActivity.java 程式碼
+
+
 每個 app 執行後，會先從 AndroidManifest.xml 中找尋 main activity，這就會是我們的切入點。而在此 app 中，我們的 main activity 就是 MainActivity.java 這支程式。
 
 因此，我們先來看 MainActivity.java。

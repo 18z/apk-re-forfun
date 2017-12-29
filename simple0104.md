@@ -1,3 +1,6 @@
+### - 0104 - Apk 自寫自逆 - 講解 activity_main.xml 內容
+
+
 再來，我們來看 R.layout.activity_main 之內容。其實，它是個 xml 檔，內容如下。
 
 ```xml

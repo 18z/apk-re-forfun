@@ -1,3 +1,6 @@
+### - 0105 - Apk 自寫自逆 - Dalvik Bytecode
+
+
 以下，我們開始逆！
 
 ![code_proces](code_process.png)

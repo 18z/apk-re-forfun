@@ -1,3 +1,6 @@
+### - 0107 - Apk 自寫自逆 - 解讀 Dalvik Bytecode
+
+
 開始解讀 opcode 之前，我們得先準備幾份參考資料。
 
 1. [dalvik opcodes](http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html)

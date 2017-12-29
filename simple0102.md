@@ -1,3 +1,5 @@
+### - 0102 - Apk 自寫自逆 - 講解 Activity 運行流程
+
 在真正開始進入主題前，我們先了解每個 activity 執行後，會有哪些流程。
 
 ![activity_lifecycle](activity_lifecycle.png)

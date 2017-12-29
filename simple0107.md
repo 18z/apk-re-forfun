@@ -1,11 +1,11 @@
 ### - 0107 - Apk 自寫自逆 - 解讀 Dalvik Bytecode
 
 
-開始解讀 opcode 之前，我們得先準備幾份參考資料。
+開始解讀 opcodes + smali codes 之前，我們得先準備幾份參考資料。
 
 1. [dalvik opcodes](http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html)
-2. [smali - Types Methods and Fields](https://github.com/JesusFreke/smali/wiki/TypesMethodsAndFields)
-3. [smali - Registers](https://github.com/JesusFreke/smali/wiki/Registers)
+2. [smali codes - Types Methods and Fields](https://github.com/JesusFreke/smali/wiki/TypesMethodsAndFields)
+3. [smali codes - Registers](https://github.com/JesusFreke/smali/wiki/Registers)
 
 ```smali
 invoke-super {v1, v2}, Landroid/support/v7/app/AppCompatActivity.onCreate(Landroid/os/Bundle;)V ; aav.0x00002be7

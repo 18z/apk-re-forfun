@@ -26,4 +26,4 @@
 
 這裏只要關注 ```android:text```。預設值是 ```Hello World```，我修改成```Happy Hacking```。
 
-以上，針對此 apk 兩個重要檔案已講解完畢。
+以上，針對此 apk 兩個重要檔案 (MainActivity.java, activity_main.xml) 已講解完畢。

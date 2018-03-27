@@ -8,5 +8,5 @@
 4. error msg: /system/bin/sh: /data/local/tmp/frida-server: No such file or directory
 5. 疑似 /system/bin/sh 沒檔案。
 6. Install frida on genymotion: https://www.youtube.com/watch?v=wJkn9AcK4l4
-7. android 6.0 似乎就裝進去了
+7. android 6.0 似乎就裝進去了 (didn't work out)
 ```

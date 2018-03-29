@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 jeb 似乎會把 is always true 的條件判斷直接忽略。
 ```
 
-```
+```java
 package com.example.test.re_simple;
 
 import android.support.v7.app.AppCompatActivity;

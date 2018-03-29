@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 jeb 似乎會把 is always true 的條件判斷直接忽略。
+No.
+是編譯器處理掉了。
+開啟 r2 直接看 opcodes + smali code 結果，裡面已經沒有 is always true 的條件判斷了。
 ```
 
 ```java

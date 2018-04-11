@@ -49,3 +49,36 @@ Updated by Connor Tumbleson <connor.tumbleson@gmail.com>
 ```
 
 猜測是因為版本太舊導致
+
+```
+參考 https://ibotpeaches.github.io/Apktool/install/ 
+安裝最新版 apktool 後，就可以解成 smali 了
+
+[dio@dio-VirtualBox][re-env][0] $ apktool
+Apktool v2.3.2 - a tool for reengineering Android apk files
+with smali v2.2.2 and baksmali v2.2.2
+Copyright 2014 Ryszard Wiśniewski <brut.alll@gmail.com>
+Updated by Connor Tumbleson <connor.tumbleson@gmail.com>
+
+usage: apktool
+ -advance,--advanced   prints advance information.
+ -version,--version    prints the version then exits
+usage: apktool if|install-framework [options] <framework.apk>
+ -p,--frame-path <dir>   Stores framework files into <dir>.
+ -t,--tag <tag>          Tag frameworks using <tag>.
+usage: apktool d[ecode] [options] <file_apk>
+ -f,--force              Force delete destination directory.
+ -o,--output <dir>       The name of folder that gets written. Default is apk.out
+ -p,--frame-path <dir>   Uses framework files located in <dir>.
+ -r,--no-res             Do not decode resources.
+ -s,--no-src             Do not decode sources.
+ -t,--frame-tag <tag>    Uses framework files tagged by <tag>.
+usage: apktool b[uild] [options] <app_path>
+ -f,--force-all          Skip changes detection and build all files.
+ -o,--output <dir>       The name of apk that gets written. Default is dist/name.apk
+ -p,--frame-path <dir>   Uses framework files located in <dir>.
+
+For additional info, see: http://ibotpeaches.github.io/Apktool/ 
+For smali/baksmali info, see: https://github.com/JesusFreke/smali
+
+```

@@ -82,3 +82,13 @@ For additional info, see: http://ibotpeaches.github.io/Apktool/
 For smali/baksmali info, see: https://github.com/JesusFreke/smali
 
 ```
+
+```
+2018/04/12
+現況：可用 apktool d ifonly-proguard-20180327.apk 解出 smali file。
+     鎖定 MainActivity.smali 中的第 19 行，預計將 print 改成 pprint。
+     目標是將改過的 smali 檔包回去 apk。
+     包回去參考的文件是 https://blog.bramp.net/post/2015/08/01/decompile-and-recompile-android-apk/
+     裡面用到了 apktool, keytool, jarsigner, zipalign 這些工具
+下一步：在 ubuntu vm 裡建置這些工具，並加入 re-env 中。
+```

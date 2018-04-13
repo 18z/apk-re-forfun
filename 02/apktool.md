@@ -92,3 +92,9 @@ For smali/baksmali info, see: https://github.com/JesusFreke/smali
      裡面用到了 apktool, keytool, jarsigner, zipalign 這些工具
 下一步：在 ubuntu vm 裡建置這些工具，並加入 re-env 中。
 ```
+```
+2018/04/13
+keytool, jarsigner vm 中已有。須確認是裝了什麼才有。
+zipalign 要下載 android sdk 才有。
+  /home/dio/Android/Sdk/build-tools/27.0.3/zipalign
+```

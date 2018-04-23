@@ -1,5 +1,10 @@
 ### api-engine
 
+```
+(env) [dio@dio-VirtualBox][details][0] $ grep "Gotcha" ifonly-proguard.txt |wc
+    305    4593   46003
+```
+
 ![1](api-engine-1.png)
 ![2](api-engine-2.png)
 ![3](api-engine-3.png)

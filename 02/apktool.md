@@ -106,3 +106,4 @@ zipalign 要下載 android sdk 才有。
 
 keytool, jarsigner 是在安裝完 openjdk-8-jdk 後才會有
 ```
+![apktool-repackage](apktool-repackage.png)

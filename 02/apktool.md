@@ -100,3 +100,9 @@ https://developer.android.com/studio/install.html
 zipalign 要下載 android sdk 才有。
   /home/dio/Android/Sdk/build-tools/27.0.3/zipalign
 ```
+
+```
+2018/04/23
+
+keytool, jarsigner 是在安裝完 openjdk-8-jdk 後才會有
+```

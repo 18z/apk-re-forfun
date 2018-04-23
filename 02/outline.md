@@ -14,7 +14,7 @@
 
 6. [Genymotion](https://github.com/18z/apk-re-forfun/blob/master/02/genymotion.md), [Frida](https://github.com/18z/apk-re-forfun/blob/master/02/frida.md)
 
-7. API engine 掃一次。
+7. [API engine 掃一次。](https://github.com/18z/apk-re-forfun/blob/master/02/api-engine.md)
 
 8. [用 proguard](https://github.com/18z/apk-re-forfun/blob/master/02/proguard.md)。
 

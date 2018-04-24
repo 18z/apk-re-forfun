@@ -107,3 +107,15 @@ zipalign 要下載 android sdk 才有。
 keytool, jarsigner 是在安裝完 openjdk-8-jdk 後才會有
 ```
 ![apktool-repackage](apktool-repackage.png)
+
+```
+2018/04/24
+
+用 apktool repackage apk 成 ifonly-proguard-20180327-aligned.apk
+並將之安裝置 genymotion 模擬器中
+以 ./adb logcat 觀察 (~/Downloads/platform-tools/)
+
+04-23 21:43:07.936  3262  3262 E pprint  : proguard
+
+證實有 repackage 成功！
+```

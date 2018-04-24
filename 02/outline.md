@@ -27,3 +27,5 @@
 12. [r2 project](https://github.com/18z/apk-re-forfun/blob/master/02/r2project.md)
     
     [r2 rename function](https://github.com/18z/apk-re-forfun/blob/master/02/rename-function.md)
+    
+13. .so file

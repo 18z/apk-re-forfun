@@ -119,3 +119,9 @@ keytool, jarsigner 是在安裝完 openjdk-8-jdk 後才會有
 
 證實有 repackage 成功！
 ```
+
+
+```
+2018/04/25
+https://github.com/18z/apk-re-forfun/blob/master/apktool-testenv/repackage.sh
+```

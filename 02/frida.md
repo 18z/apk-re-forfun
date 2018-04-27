@@ -10,3 +10,14 @@
 6. Install frida on genymotion: https://www.youtube.com/watch?v=wJkn9AcK4l4
 7. android 6.0 似乎就裝進去了 (didn't work out)
 ```
+
+
+```
+2018/04/27
+
+Parktsai 大大 frida 文
+https://github.com/parkmftsai/Reverse-apk-research/blob/master/learning_reverse_apk_record.md
+
+決定來試一下
+https://www.codemetrix.net/hacking-android-apps-with-frida-1/
+```

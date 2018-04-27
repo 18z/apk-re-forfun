@@ -20,4 +20,7 @@ https://github.com/parkmftsai/Reverse-apk-research/blob/master/learning_reverse_
 
 決定來試一下
 https://www.codemetrix.net/hacking-android-apps-with-frida-1/
+
+frida-server binary 要挑 frida-server-10.7.7-android-x86
+先前錯誤是因為 cpu 架構挑錯了。
 ```

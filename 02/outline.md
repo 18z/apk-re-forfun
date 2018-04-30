@@ -1,6 +1,6 @@
 ### outline
 
-01. 以文字描述撰寫此 App 之[目的](https://github.com/18z/apk-re-forfun/blob/master/02/01.md)及如何撰寫。
+01. [以文字描述撰寫此 App 之目的。](https://github.com/18z/apk-re-forfun/blob/master/02/01.md)
 
 02. [講解 Java Code](https://github.com/18z/apk-re-forfun/blob/master/02/02.md)。
 

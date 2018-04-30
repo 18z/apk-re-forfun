@@ -12,16 +12,14 @@
 
 06. [Genymotion](https://github.com/18z/apk-re-forfun/blob/master/02/genymotion.md), [Frida](https://github.com/18z/apk-re-forfun/blob/master/02/frida.md)
 
-07. [API engine 掃一次。](https://github.com/18z/apk-re-forfun/blob/master/02/api-engine.md)
+07. [用 proguard](https://github.com/18z/apk-re-forfun/blob/master/02/proguard.md)。
 
-08. [用 proguard](https://github.com/18z/apk-re-forfun/blob/master/02/proguard.md)。
+08. 加解殼
 
-09. 加解殼
+09. 加解密
 
-10. 加解密
+10. [r2scripts - details projects](http://going.no.where), [API engine 掃一次。](https://github.com/18z/apk-re-forfun/blob/master/02/api-engine.md)
 
-11. [r2scripts - details projects](http://going.no.where)
-
-12. [r2 project](https://github.com/18z/apk-re-forfun/blob/master/02/r2project.md), [r2 rename function](https://github.com/18z/apk-re-forfun/blob/master/02/rename-function.md)
+11. [r2 project](https://github.com/18z/apk-re-forfun/blob/master/02/r2project.md), [r2 rename function](https://github.com/18z/apk-re-forfun/blob/master/02/rename-function.md)
     
-13. .so file
+12. .so file

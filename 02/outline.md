@@ -20,7 +20,7 @@
 
 10. 加解密
 
-11. r2scripts
+11. [r2scripts - details projects](http://going.no.where)
 
 12. [r2 project](https://github.com/18z/apk-re-forfun/blob/master/02/r2project.md), [r2 rename function](https://github.com/18z/apk-re-forfun/blob/master/02/rename-function.md)
     

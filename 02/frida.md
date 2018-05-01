@@ -59,3 +59,4 @@ What is Dynamic Binary Instrumentation? (動態二進制注入)
 4. 鎖定 com.android.browser
 5. frida-trace -i "open" -U com.android.browser
 ```
+![frida-trace](frida-trace.png)

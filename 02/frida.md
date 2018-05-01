@@ -49,3 +49,13 @@ What is Dynamic Binary Instrumentation? (動態二進制注入)
 以上動作也可用 debugger 來做，但障礙多。例如要 disassemble and recompile APP 使它 debuggable.  
 因為有些 app 會偵測並防止 debugger，因此我們必須繞過此邏輯。也不是不能用 debugger 做，但就是麻煩。用 Frida 就很快。
 ```
+
+```
+2018/05/01
+1. 同步 android emulator 中 frida-server-android-x86 版本，以及 macos frida 版本為 10.8.0。
+2. 啟動 frida-server in android emulator
+3. frida-ps -U|less (In another terminal, 
+   in a regular OS shell, check if Frida is running and lists processes on Android:)
+4. 鎖定 com.android.browser
+5. frida-trace -i "open" -U com.android.browser
+```

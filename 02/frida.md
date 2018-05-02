@@ -60,3 +60,14 @@ What is Dynamic Binary Instrumentation? (動態二進制注入)
 5. frida-trace -i "open" -U com.android.browser
 ```
 ![frida-trace](frida-trace.png)
+
+```
+2018/05/02
+參考 https://www.frida.re/docs/frida-trace/
+
+透過 frida-trace -U -f com.android.calendar 將 com.android.calendar 啟動。
+
+trace API calls 還沒實驗成功。
+```
+![frida-trace-f](frida-trace-f.png)
+![frida-trace-f-emu](frida-trace-f-emu.png)

@@ -101,6 +101,12 @@ https://www.anquanke.com/post/id/85758
 onEnter: function (log, args, state) {
     log("open(" + "pathname=" + Memory.readUtf8String(args[0])+ ", flags=" + args[1] + ")");
 },
+
+Question:
+open 到底是什麼 function?
+1. 自定義 apk 內 function。
+2. import api function?
+3. or else?
 ```
 
 open.js 修改前

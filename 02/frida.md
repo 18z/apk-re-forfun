@@ -80,10 +80,12 @@ trace API calls 還沒實驗成功。
 Usage: frida-trace [options] target
 
 Options:
-  --version             show program's version number and exit
-  -h, --help            show this help message and exit
+
   -I MODULE, --include-module=MODULE
-                        include MODULE
   -i FUNCTION, --include=FUNCTION
-                        include FUNCTION
+  
+-----------
+
+frida-discover : is a tool for discovering internal functions in a program, 
+                 which can then be traced by using frida-trace.
 ```

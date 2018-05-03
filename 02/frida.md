@@ -88,4 +88,8 @@ Options:
 
 frida-discover : is a tool for discovering internal functions in a program, 
                  which can then be traced by using frida-trace.
+
+http://pwn4.fun/2017/05/05/Frida%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/
+https://www.anquanke.com/post/id/85758
+
 ```

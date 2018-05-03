@@ -69,5 +69,19 @@ What is Dynamic Binary Instrumentation? (動態二進制注入)
 
 trace API calls 還沒實驗成功。
 ```
+
+```
+(frida-server) [kun-yuchen@startrek.local][frida-server][0] $ frida-trace --help
+Usage: frida-trace [options] target
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -I MODULE, --include-module=MODULE
+                        include MODULE
+  -i FUNCTION, --include=FUNCTION
+                        include FUNCTION
+```
+
 ![frida-trace-f](frida-trace-f.png)
 ![frida-trace-f-emu](frida-trace-f-emu.png)

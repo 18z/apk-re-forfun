@@ -85,9 +85,12 @@ Options:
   -i FUNCTION, --include=FUNCTION
   
 -----------
-
 frida-discover : is a tool for discovering internal functions in a program, 
                  which can then be traced by using frida-trace.
+                 
+(frida-server) [kun-yuchen@startrek.local][frida-server][0] $ frida-discover -p 2226
+Failed to attach: unable to find process with pid 2226
+-----------
 
 可參考
 http://pwn4.fun/2017/05/05/Frida%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/

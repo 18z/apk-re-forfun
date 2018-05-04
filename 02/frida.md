@@ -145,3 +145,14 @@ https://www.jianshu.com/p/ae45af3c3098
    * Android 系統安裝時優化，將 dex file 提取後放在一起後優化成 odex file，存在 /data/dalvik-cache 中
    * 若是 ART 模式，使用 dex2oat 優化成 oat 文件，但檔案大小會大很多。
 ```
+
+```
+short summary:
+還是沒搞懂 frida-trace 在做什麼。
+
+Question:
+open 到底是什麼 function?
+1. 自定義 apk 內 function。
+2. import api function?
+3. or else?
+```

@@ -116,3 +116,32 @@ open.js 修改前
 open.js 修改後
 ![frida-trace-modified](frida-trace-modified.png)
 
+
+```
+2018/05/04
+
+先前 frida hook 結果中出現 base.apk。
+好奇是什麼。
+
+參考與整理
+https://www.jianshu.com/p/ae45af3c3098
+
+1. AndroidManifest.xml 被解析，
+   解析結果儲存在 /data/system/packages.xml 和 /data/system/packages.list 中。
+   此階段完成，相當於 app 在系統註冊了，可以被系統識別。
+   
+   * packages.list 中有 app 在 /data/ 中的儲存位置 /data/data/cn.hadcn.exampple
+   * packages.xml 中包含
+      * 權限
+      * 簽名
+      * 代碼所在位置
+2. 保存 app 執行檔。
+   * 依據 packages.xml 中 codePath 建立一目錄。
+     apk 會被命名為 base.apk 並拷貝至此，lib 目錄則存放 native library。
+     此時 app 就可以運行了。
+     
+3. 優化
+   * 若每次運行都得從 base.apk 中提取 dex file。效率低。
+   * Android 系統安裝時優化，將 dex file 提取後放在一起後優化成 odex file，存在 /data/dalvik-cache 中
+   * 若是 ART 模式，使用 dex2oat 優化成 oat 文件，但檔案大小會大很多。
+```

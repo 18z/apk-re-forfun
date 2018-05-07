@@ -147,6 +147,14 @@ https://www.jianshu.com/p/ae45af3c3098
 ```
 
 ```
+2018/05/07
+base.apk 與原本 apk 差別在哪？
+https://github.com/parkmftsai/Reverse-apk-research/blob/master/learning_reverse_apk_record.md
+
+parkmftsai 大大 05/07 問題二有解答！
+```
+
+```
 short summary:
 還是沒搞懂 frida-trace 在做什麼。
 

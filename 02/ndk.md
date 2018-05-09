@@ -22,4 +22,8 @@ Application.mk:   which defines properties for all the modules that you use in y
 
 接著解釋如何使用 ndk-build 腳本。
 最後，進階課題，如何 incorporate the NDK 到我們自己的 toolchain。如果我們不想用 ndk-build 的話。
+
+看 https://blog.csdn.net/carson_ho/article/details/73250163
+
+Android Studio 2.2 以上實現 NDK。感覺容易。
 ```

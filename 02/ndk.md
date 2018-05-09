@@ -15,3 +15,11 @@ Android.mk:       which defines properties specific to individual modules, or li
 Application.mk:   which defines properties for all the modules that you use in your app.
                   (all, modules use in the app)
 ```
+
+
+```
+2018/05/09
+
+接著解釋如何使用 ndk-build 腳本。
+最後，進階課題，如何 incorporate the NDK 到我們自己的 toolchain。如果我們不想用 ndk-build 的話。
+```

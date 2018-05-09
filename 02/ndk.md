@@ -26,4 +26,10 @@ Application.mk:   which defines properties for all the modules that you use in y
 看 https://blog.csdn.net/carson_ho/article/details/73250163
 
 Android Studio 2.2 以上實現 NDK。感覺容易。
+
+Generate Signed apk 時遇到版本 Resolve conflicts between the app and test APK 問題
+https://developer.android.com/studio/test/?utm_source=android-studio#dependency_conflicts
+
+後來是先更新 SDK 版本，接著修改 build.gradle，使得版本相同（這樣感覺有點不正規）
+之後就成功 gen 出 NDK apk 了。
 ```

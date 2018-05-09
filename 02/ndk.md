@@ -32,4 +32,8 @@ https://developer.android.com/studio/test/?utm_source=android-studio#dependency_
 
 後來是先更新 SDK 版本，接著修改 build.gradle，使得版本相同（這樣感覺有點不正規）
 之後就成功 gen 出 NDK apk 了。
+
+成功在模擬器上運作！
 ```
+
+![ndk-simple-on-genymotion](ndk-simple.jpg)

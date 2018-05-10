@@ -37,3 +37,23 @@ https://developer.android.com/studio/test/?utm_source=android-studio#dependency_
 ```
 
 ![ndk-simple-on-genymotion](ndk-simple.jpg)
+
+
+```
+2018/05/10
+
+實驗：patch .so 檔
+結果：失敗
+
+實驗步驟：
+1. 以 apktool d NDK-simple.apk 將 apk 解開
+2. 以 r2 -w 修改 lib/arm64-v8a, armeabi-v7a, x86, x86_64 中的 libnative-lib.so 
+   將內部字串 Hello from C++ 改成 HELLO FROM CPP
+3. 以 apk-re-forfun 中的 repackage.sh 將改過的 .so 檔重新包裝
+4. 將 apk 送進 genymotion 中運行，字串還是 Hello from C++，實驗失敗。
+5. 試圖以 grep -r "Hello" . 在  NDK-simple 目錄下找尋，發現
+   Binary file ./lib/x86_64/libnative-lib.so matches
+   Binary file ./build/apk/res/layout/activity_main.xml matches
+   Binary file ./build/apk/lib/x86_64/libnative-lib.so matches
+   因此懷疑，可能有其他地方沒改到。
+```

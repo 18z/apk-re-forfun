@@ -60,3 +60,8 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 ![equals](ifonly-equals.png)
+
+```
+2018/05/10
+https://github.com/CalebFenton/simplify
+```

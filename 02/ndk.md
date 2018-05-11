@@ -72,4 +72,5 @@ https://developer.android.com/studio/test/?utm_source=android-studio#dependency_
 
 5. 發現 x86_64/.so 中，有另一處出現 Hello 字串。將之也改成 HELLO 後，重包。
    一樣遇到 NDK_SIMPLE has stopped 問題。
+6. 只修改 x86/.so，重包後送到虛擬機中，一樣是 Hello from C++。 
 ```

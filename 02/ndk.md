@@ -69,4 +69,7 @@ https://developer.android.com/studio/test/?utm_source=android-studio#dependency_
    將內部字串 Hello from C++ 改成 HELLO from C++
 3. 以 apk-re-forfun 中的 repackage.sh 將改過的 .so 檔重新包裝
 4. 將 apk 送進 genymotion 中運行，顯示 NDK_SIMPLE has stopped。跑不起來。
+
+5. 發現 x86_64/.so 中，有另一處出現 Hello 字串。將之也改成 HELLO 後，重包。
+   一樣遇到 NDK_SIMPLE has stopped 問題。
 ```

@@ -85,3 +85,19 @@ https://developer.android.com/studio/test/?utm_source=android-studio#dependency_
 
 ![radiff2-x](radiff2-x.png)
 ![radiff2-D](radiff2-D.png)
+
+```
+2018/05/15
+
+ChenJS's solution
+editor 直接編輯 .so file
+前提是，該 apk 在打包時已先把 proguard-rules.pro 拿掉，避免驗證。
+
+試試看打包一個無 proguard-rules.pro 的 apk
+再試著直接用編輯器改 .so file。
+再用 apktool 回包。
+
+註記：此法與 r2 改法不同。
+r2 改完的結果，可以執行，但字串沒改。
+編輯器直接改法，直接閃退。
+```

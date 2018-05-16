@@ -101,3 +101,19 @@ editor 直接編輯 .so file
 r2 改完的結果，可以執行，但字串沒改。
 編輯器直接改法，直接閃退。
 ```
+
+```
+2018/05/16
+實驗：patch .so 檔
+結果：失敗
+
+實驗步驟：
+1. 撰寫 1 ndk apk。直接刪除 proguard-rules.pro。
+2. generate signed apk。
+3. 跑在 genymotion 中，成功！
+4. vim 直接改 proguard-rules.pro excluded apk。
+5. 將改過的 apk 試跑在 genymotion 中，閃退。
+```
+
+![NoProguard](NoProguard.png)
+![VIMnoProguard](VIMnoProguard.png)

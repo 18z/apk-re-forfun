@@ -117,3 +117,17 @@ r2 改完的結果，可以執行，但字串沒改。
 
 ![NoProguard](NoProguard.png)
 ![VIMnoProguard](VIMnoProguard.png)
+
+```
+2018/05/17
+實驗：patch .so 檔
+結果：失敗
+
+實驗步驟：
+
+1. 以 r2 修改 signed apk (with no proguard-rules.pro)。
+2. 跑在 genymotion 中。
+3. app 沒閃退，但字串不變。@@
+```
+
+![r2-noProguard](r2-noProguard.png)

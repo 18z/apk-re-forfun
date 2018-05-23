@@ -157,3 +157,9 @@ r2 改完的結果，可以執行，但字串沒改。
 2018/05/22
 鎖定下一步，用 r2pipe 找出特定字串相對記憶體位置。
 ```
+
+```
+2018/05/23
+auto patch r2script complete
+https://github.com/18z/re-env/blob/master/r2scripts/patch.py
+```

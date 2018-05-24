@@ -181,4 +181,17 @@ Gradle Scripts
   local.properties (SDK Location)
 External Build Files
   CMakeLists.txt
+  
+  
+請教 ChenJS 摘要 ：
+1. 要先確定 模擬器的版本  是 x86 , x64, arm 32 , arm 64 ， 修改完so後 重新簽章  安裝時 會出現 INSTALL_FAILED_TEST_ONLY .......
+2. 要使用 pm install -t -r xx.apk去安裝
+3. 如果模擬器裡面, 之前app沒有移除  會出現INSTALL_PARSE_FAILED_INCONSISTENT_CERTIFICATES，就要移除app 再重新安裝
+4. 再編譯ndk時  就要將proguard-rules.pro刪除了
+
+cky
+1. 模擬器版本我有確認！
+2. 我是用 genymotion 付費版本，所以我安裝都是直接將 apk 拖拉進去模擬器就會自動安裝了。
+3. 裝 apk 前，我都有確保模擬器裡面的舊 apk 已刪除！
+4. 編譯 ndk 前，我就將 proguard-rules.pro 刪掉了。
 ```

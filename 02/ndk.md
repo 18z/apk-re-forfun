@@ -202,5 +202,5 @@ cky
 ChenJS 
 1. MadEdit 直接改 16禁制的字串
 2. 模擬器使用Android Studio內建的   sdk 4.4 5.0 都可以執行
-
+模逆器配置sdk  選 armeabi-v7a  就是arm 32   只要改 armeabi-v7a 檔案夾底下的so 就可以
 ```

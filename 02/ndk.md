@@ -163,3 +163,22 @@ r2 改完的結果，可以執行，但字串沒改。
 auto patch r2script complete
 https://github.com/18z/re-env/blob/master/r2scripts/patch.py
 ```
+
+```
+2018/05/24
+
+延續 2018/05/21 的東西。
+
+manifests
+  AndroidManifest.xml
+Gradle Scripts
+  build.gradle (Project: NDK_SIMPLE2)
+  build.gradle (Module: app)
+  gradle-wrapper.propertes (Gradle Version)
+  proguard-rules.pro (ProGuard Rules for app)
+  gradle.properties (Project Properties)
+  settings.gradle (Project Settings)
+  local.properties (SDK Location)
+External Build Files
+  CMakeLists.txt
+```

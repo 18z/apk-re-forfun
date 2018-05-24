@@ -194,4 +194,13 @@ cky
 2. 我是用 genymotion 付費版本，所以我安裝都是直接將 apk 拖拉進去模擬器就會自動安裝了。
 3. 裝 apk 前，我都有確保模擬器裡面的舊 apk 已刪除！
 4. 編譯 ndk 前，我就將 proguard-rules.pro 刪掉了。
+
+cky
+1. 修改 binary 你用的是什麼編輯器？
+2. 模擬器是用哪一個？
+
+ChenJS 
+1. MadEdit 直接改 16禁制的字串
+2. 模擬器使用Android Studio內建的   sdk 4.4 5.0 都可以執行
+
 ```

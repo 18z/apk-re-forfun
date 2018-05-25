@@ -206,3 +206,11 @@ ChenJS
 
 確認刪除的 proguard-rules.pro 是正確的
 ```
+
+```
+2018/05/25
+針對 ChenJS 建議，未來實驗調整。
+1. 安裝方式使用 pm install，而非直接拖拉進 Genymotion。
+2. 改用 MadEdit 編輯器修改。直接改 16 進制。
+3. 直接用 android studio 的模擬器。而非 Genymotion。
+```

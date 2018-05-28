@@ -214,3 +214,14 @@ ChenJS
 2. 改用 MadEdit 編輯器修改。直接改 16 進制。
 3. 直接用 android studio 的模擬器。而非 Genymotion。
 ```
+
+
+```
+2018/05/28
+
+實驗：1 規畫
+
+1. 選定 No proguard-rules.pro apk
+2. 用 r2 改 .so file
+3. 用 pm install 安裝 apk 進 genymotion
+```

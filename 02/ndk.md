@@ -225,3 +225,26 @@ ChenJS
 2. 用 r2 改 .so file
 3. 用 pm install 安裝 apk 進 genymotion
 ```
+
+
+```
+2018/05/29
+
+1. with proguard-rules.pro/ no proguard-rules.pro
+2. r2 改/ vim 改/ MadEdit 改
+3. genymotion / android studio emulator
+4. adb pm install
+
+1. with proguard-rules.pro -> r2 -> genymotion
+2. with proguard-rules.pro -> vim -> genymotion
+3. with proguard-rules.pro -> MadEdit -> genymotion
+4. with proguard-rules.pro -> r2 -> android studio emulator
+5. with proguard-rules.pro -> vim -> android studio emulator
+6. with proguard-rules.pro -> MadEdit -> android studio emulator
+7. with proguard-rules.pro -> r2 -> genymotion
+8. with proguard-rules.pro -> vim -> genymotion
+9. with proguard-rules.pro -> MadEdit -> genymotion
+10. no proguard-rules.pro -> r2 -> android studio emulator
+11. no proguard-rules.pro -> vim -> android studio emulator
+12. no proguard-rules.pro -> MadEdit -> android studio emulator
+```

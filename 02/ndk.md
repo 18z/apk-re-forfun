@@ -241,10 +241,16 @@ ChenJS
 4. with proguard-rules.pro -> r2 -> android studio emulator
 5. with proguard-rules.pro -> vim -> android studio emulator
 6. with proguard-rules.pro -> MadEdit -> android studio emulator
-7. with proguard-rules.pro -> r2 -> genymotion
-8. with proguard-rules.pro -> vim -> genymotion
-9. with proguard-rules.pro -> MadEdit -> genymotion
+7. no proguard-rules.pro -> r2 -> genymotion
+8. no proguard-rules.pro -> vim -> genymotion
+9. no proguard-rules.pro -> MadEdit -> genymotion
 10. no proguard-rules.pro -> r2 -> android studio emulator
 11. no proguard-rules.pro -> vim -> android studio emulator
 12. no proguard-rules.pro -> MadEdit -> android studio emulator
+```
+
+```
+2015/05/30
+在 ubuntu 中安裝 madedit
+並更新逆向環境安裝包 re-env
 ```

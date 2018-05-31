@@ -117,3 +117,140 @@ r2 改完的結果，可以執行，但字串沒改。
 
 ![NoProguard](NoProguard.png)
 ![VIMnoProguard](VIMnoProguard.png)
+
+```
+2018/05/17
+實驗：patch .so 檔
+結果：失敗
+
+實驗步驟：
+
+1. 以 r2 修改 signed apk (with no proguard-rules.pro)。
+2. 跑在 genymotion 中。
+3. app 沒閃退，但字串不變。@@
+```
+
+![r2-noProguard](r2-noProguard.png)
+
+
+```
+2018/05/18
+
+常改 .so，試想寫 r2script 自動化改 .so 檔
+1. 搜尋 Hello 字串，相對記憶體位置。
+2. 跳至該相對記憶體位置。
+3. 修改字元 H 至小寫 h。
+
+似乎可以用 radiff2 的某參數找到相關修改指令。
+```
+![radiff2 -r](radiff2-r.png)
+
+```
+2018/05/21
+列出所有 android 內檔案，並解釋用途。
+猜測之所以 patch .so 失敗，可能跟驗證機制有關係。
+或許 config 檔中會有關閉驗證機制的設定？
+```
+
+
+```
+2018/05/22
+鎖定下一步，用 r2pipe 找出特定字串相對記憶體位置。
+```
+
+```
+2018/05/23
+auto patch r2script complete
+https://github.com/18z/re-env/blob/master/r2scripts/patch.py
+```
+
+```
+2018/05/24
+
+延續 2018/05/21 的東西。
+
+manifests
+  AndroidManifest.xml
+Gradle Scripts
+  build.gradle (Project: NDK_SIMPLE2)
+  build.gradle (Module: app)
+  gradle-wrapper.propertes (Gradle Version)
+  proguard-rules.pro (ProGuard Rules for app)
+  gradle.properties (Project Properties)
+  settings.gradle (Project Settings)
+  local.properties (SDK Location)
+External Build Files
+  CMakeLists.txt
+  
+  
+請教 ChenJS 摘要 ：
+1. 要先確定 模擬器的版本  是 x86 , x64, arm 32 , arm 64 ， 修改完so後 重新簽章  安裝時 會出現 INSTALL_FAILED_TEST_ONLY .......
+2. 要使用 pm install -t -r xx.apk去安裝
+3. 如果模擬器裡面, 之前app沒有移除  會出現INSTALL_PARSE_FAILED_INCONSISTENT_CERTIFICATES，就要移除app 再重新安裝
+4. 再編譯ndk時  就要將proguard-rules.pro刪除了
+
+cky
+1. 模擬器版本我有確認！
+2. 我是用 genymotion 付費版本，所以我安裝都是直接將 apk 拖拉進去模擬器就會自動安裝了。
+3. 裝 apk 前，我都有確保模擬器裡面的舊 apk 已刪除！
+4. 編譯 ndk 前，我就將 proguard-rules.pro 刪掉了。
+
+cky
+1. 修改 binary 你用的是什麼編輯器？
+2. 模擬器是用哪一個？
+
+ChenJS 
+1. MadEdit 直接改 16禁制的字串
+2. 模擬器使用Android Studio內建的   sdk 4.4 5.0 都可以執行
+模逆器配置sdk  選 armeabi-v7a  就是arm 32   只要改 armeabi-v7a 檔案夾底下的so 就可以
+
+確認刪除的 proguard-rules.pro 是正確的
+```
+
+```
+2018/05/25
+針對 ChenJS 建議，未來實驗調整。
+1. 安裝方式使用 pm install，而非直接拖拉進 Genymotion。
+2. 改用 MadEdit 編輯器修改。直接改 16 進制。
+3. 直接用 android studio 的模擬器。而非 Genymotion。
+```
+
+
+```
+2018/05/28
+
+實驗：1 規畫
+
+1. 選定 No proguard-rules.pro apk
+2. 用 r2 改 .so file
+3. 用 pm install 安裝 apk 進 genymotion
+```
+
+
+```
+2018/05/29
+
+1. with proguard-rules.pro/ no proguard-rules.pro
+2. r2 改/ vim 改/ MadEdit 改
+3. genymotion / android studio emulator
+4. adb pm install
+
+1. with proguard-rules.pro -> r2 -> genymotion
+2. with proguard-rules.pro -> vim -> genymotion
+3. with proguard-rules.pro -> MadEdit -> genymotion
+4. with proguard-rules.pro -> r2 -> android studio emulator
+5. with proguard-rules.pro -> vim -> android studio emulator
+6. with proguard-rules.pro -> MadEdit -> android studio emulator
+7. no proguard-rules.pro -> r2 -> genymotion
+8. no proguard-rules.pro -> vim -> genymotion
+9. no proguard-rules.pro -> MadEdit -> genymotion
+10. no proguard-rules.pro -> r2 -> android studio emulator
+11. no proguard-rules.pro -> vim -> android studio emulator
+12. no proguard-rules.pro -> MadEdit -> android studio emulator
+```
+
+```
+2015/05/30
+在 ubuntu 中安裝 madedit
+並更新逆向環境安裝包 re-env
+```

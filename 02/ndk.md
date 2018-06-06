@@ -271,3 +271,14 @@ ChenJS
 2018/06/04
 用 vim 改好 02 目錄下 binary files。
 ```
+
+```
+2018/06/05
+用 madedit 改好 03 目錄下 binary files。
+```
+
+```
+2018/06/06
+用 patch.py 改好 04 目錄下 binary files。
+```
+

@@ -282,3 +282,9 @@ ChenJS
 用 patch.py 改好 04 目錄下 binary files。
 ```
 
+
+```
+2018/06/07
+用 vim 改好 05 目錄下 binary files。
+```
+

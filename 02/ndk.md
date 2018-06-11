@@ -288,3 +288,7 @@ ChenJS
 用 vim 改好 05 目錄下 binary files。
 ```
 
+```
+2018/06/11
+用 madedit 改好 06 目錄下 binary files。
+```

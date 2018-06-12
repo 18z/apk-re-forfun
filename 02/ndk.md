@@ -1,4 +1,4 @@
-ㄎ### Native Development Kit (NDK)
+### Native Development Kit (NDK)
 
 ```
 2018/05/08

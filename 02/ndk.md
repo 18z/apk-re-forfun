@@ -292,3 +292,8 @@ ChenJS
 2018/06/11
 用 madedit 改好 06 目錄下 binary files。
 ```
+
+```
+2018/06/12
+用 r2 改好 07 目錄下 binary files。
+```

@@ -1,4 +1,4 @@
-### Native Development Kit (NDK)
+ㄎ### Native Development Kit (NDK)
 
 ```
 2018/05/08
@@ -296,4 +296,5 @@ ChenJS
 ```
 2018/06/12
 用 r2 改好 07 目錄下 binary files。
+得確認 x86, x86_64 是改一個地方還是改兩個地方。
 ```

@@ -311,3 +311,8 @@ ChenJS
 用 madedit 改好 09 目錄下 binary files。
 此處只改有秀出完整 Hello 的部分。
 ```
+
+```
+2018/06/25
+用 patch.py 改好 10 目錄下 binary files。
+```

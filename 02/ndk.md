@@ -321,3 +321,9 @@ ChenJS
 2018/06/26
 用 vim 改好 11 目錄下 binary files。
 ```
+
+```
+2018/06/27
+用 madedit 改好 12 目錄下 binary files。
+此處只改有秀出完整 Hello 的部分。
+```

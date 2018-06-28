@@ -327,3 +327,8 @@ ChenJS
 用 madedit 改好 12 目錄下 binary files。
 此處只改有秀出完整 Hello 的部分。
 ```
+
+```
+2018/06/28
+確保所有 binary 只有改秀出完整 Hello from C++ 這部分。
+```

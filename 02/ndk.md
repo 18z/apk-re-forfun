@@ -332,3 +332,8 @@ ChenJS
 2018/06/28
 確保所有 binary 只有改秀出完整 Hello from C++ 這部分。
 ```
+
+```
+2018/06/29
+用 r2 及 vim 確認 01 目錄下 binary files 只有改秀出完整 Hello from C++ 部分。
+```

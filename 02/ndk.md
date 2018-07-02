@@ -337,3 +337,10 @@ ChenJS
 2018/06/29
 用 r2 及 vim 確認 01 目錄下 binary files 只有改秀出完整 Hello from C++ 部分。
 ```
+
+```
+2018/07/02
+用 r2 找不到 hello 與 Hello 字串。似乎直接用 vim 改會有問題？
+用 vim 可以找到 hello 或 Hello 字串。
+發現 x86_64 改到非完整 Hello from C++ 部分，已修正。
+```

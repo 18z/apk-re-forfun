@@ -344,3 +344,11 @@ ChenJS
 用 vim 可以找到 hello 或 Hello 字串。
 發現 x86_64 改到非完整 Hello from C++ 部分，已修正。
 ```
+
+```
+2018/07/03
+針對 03 目錄下
+用 r2 都可以找到 hello 字串。
+用 vim 可以找到 he 或 He 字串。
+發現 x86_64 改到非完整 Hello from C++ 部分，已修正。
+```

@@ -360,3 +360,12 @@ ChenJS
 用 vim 可以找到 he 或 He 字串。
 檢查結果，無需修正。
 ```
+
+```
+2018/07/05
+針對 05 目錄下。
+用 r2 找不到 he 或 He 字串。
+用 vim 可找到。
+改了 x86 部分，hell 改成 Hell
+改了 x86_64 部分，hello frH 改成 Hello frH。
+```

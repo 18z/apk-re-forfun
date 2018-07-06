@@ -369,3 +369,11 @@ ChenJS
 改了 x86 部分，hell 改成 Hell
 改了 x86_64 部分，hello frH 改成 Hello frH。
 ```
+
+```
+2018/07/06
+針對 06 目錄下。
+用 r2 可找到 he 或 He 字串。
+用 vim 可找到。
+改了 x86_64 部分，hello frH 改成 Hello frH。
+```

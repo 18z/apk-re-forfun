@@ -14,7 +14,7 @@
 
 07. [用 proguard](https://github.com/18z/apk-re-forfun/blob/master/02/proguard.md)。
 
-08. 加解殼
+08. [加解殼](https://github.com/18z/apk-re-forfun/blob/master/02/unpacking.md)
 
 09. 加解密
 

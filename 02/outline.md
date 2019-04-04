@@ -23,3 +23,5 @@
 11. [r2 project](https://github.com/18z/apk-re-forfun/blob/master/02/r2project.md), [r2 rename function](https://github.com/18z/apk-re-forfun/blob/master/02/rename-function.md)
     
 12. [Android NDK](https://github.com/18z/apk-re-forfun/blob/master/02/ndk.md)
+
+13. Ghidra

@@ -25,3 +25,5 @@
 12. [Android NDK](https://github.com/18z/apk-re-forfun/blob/master/02/ndk.md)
 
 13. Ghidra
+
+14. [Anubis family](https://www.threatfabric.com/blogs/anubis_2_malware_and_afterlife.html)
